@@ -30,7 +30,7 @@ botui.message.bot({
 }).then(function() {
     return botui.message.bot({
         delay: 1000,
-        content: "这里是 雾时之森"
+        content: "这里是 名执"
     })
 }).then(function() {
     return botui.message.bot({
@@ -68,35 +68,31 @@ var other = function() {
     }).then(function() {
         return botui.message.bot({
             delay: 1500,
-            content: "主修的网络工程专业，是个即将毕业的大四狗"
+            content: "物联网工程专业的大学生"
         })
     }).then(function() {
         return botui.message.bot({
             delay: 1500,
-            content: "略懂HTML/CSS/JavaScript/PHP，偶尔也折腾易语言、Python"
+            content: "略懂HTML/CSS/JavaScript/PHP也偶尔折腾Python"
         })
+    
     }).then(function() {
         return botui.message.bot({
             delay: 1500,
-            content: "不过还是比较熟悉手机刷机、主机DIY与系统安装"
-        })
-    }).then(function() {
-        return botui.message.bot({
-            delay: 1500,
-            content: "喜欢折腾，热爱折腾，目前正在计算机一道上探索中"
+            content: "喜欢折腾，一旦开始就停不下来了"
         })
     }).then(function() {
         return botui.action.button({
             delay: 1500,
             action: [{
-                text: "为什么叫 雾时之森 呢？ 🤔",
+                text: "为什么叫 凉风小筑 呢？ 🤔",
                 value: "next"
             }]
         })
     }).then(function(res) {
         return botui.message.bot({
             delay: 1500,
-            content: "一次起昵称时偶然打出了这个名字，于是我就沿用了下来，嗯！"
+            content: "夏天的凉风往往给人舒适的感觉，我喜欢"
         })
     }).then(function() {
         return botui.action.button({
@@ -109,7 +105,7 @@ var other = function() {
     }).then(function(res) {
         return botui.message.bot({
             delay: 1500,
-            content: "emmmmm，看备案信息你就知道了_(:з」∠)_"
+            content: "emmmmm，3328是我的名字中的一个字的姓名代码，bk即博客_(:з」∠)_"
         })
     }).then(function(res) {
         return botui.message.bot({
